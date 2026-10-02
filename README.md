@@ -1,33 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Insight360 – Customer Intelligence & Customer 360 Platform
+Insight360 is a customer intelligence platform that brings customer information, sales, payments, relationships, loyalty, and customer health into one place.
+It provides a complete 360° view of each customer, helping businesses understand customer needs, identify potential risks, improve relationships, and support better customer retention.
 
-# Insight360
+## Problem
+Customer information is often scattered across different systems such as sales records, payment systems, customer interactions, and relationship data. This makes it difficult for sales teams and managers to get a complete understanding of a customer.
+Insight360 solves this problem by bringing important customer information together in one platform, making it easier to understand the overall customer situation and take timely actions.
 
-Insight360 combines customer profiles, sales workflows, account sentiment, and retention planning in one workspace.
+## Key Features:-
 
-## Run locally
+### Customer 360
+Provides a complete view of each customer, including customer details, sales activities, deals, payments, relationships, loyalty, and customer health.
 
-**Prerequisites:**  Node.js
+### Customer Health Score
+Shows the overall health of the customer relationship and helps teams identify customers who may need attention.
 
+### Churn Risk Detection
+Identifies customers who show potential warning signals, such as reduced engagement or relationship issues, allowing teams to investigate and take appropriate action.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Relationship and Recovery
+Tracks customer relationships and highlights areas where engagement may be weakening. Sales teams can take recovery actions such as follow-ups and resolving pending issues.
 
-Insight360 Plus hosted checkout can be enabled by setting `VITE_INSIGHT360_PLUS_CHECKOUT_URL` to the workspace owner's payment-provider checkout URL. The customer payment QR can be provided through `VITE_INSIGHT360_CUSTOMER_PAYMENT_QR`. Customer accounts remain free; paid subscription checkout is separate from customer payments.
+### Loyalty Management
+Tracks customer loyalty levels and helps businesses understand and manage customer loyalty and benefits.
 
-For an isolated local database, set `CRM_DB_FILE` to a separate SQLite file path before starting the server. Without it, Insight360 uses `data/crm.sqlite`.
+### Sales Pipeline
+Allows managers and sales executives to manage leads, opportunities, deals, sales stages, and sales progress.
 
-Customer reminder emails are checked twice daily and are delivered only when SMTP is configured in the server environment: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, and optionally `SMTP_SECURE=true` and `INSIGHT360_EMAIL_FROM`. In-app reminders work without SMTP. Customers receive an inactivity check-in after one week or one month without account activity, and invoice reminders when payment is due within seven days or overdue. Managers can also send an immediate due-invoice reminder from the customer's 360 profile.
+### Customer Submission
+Allows new customers to submit their information through a form. The submission can be reviewed by a manager before the customer is approved, assigned to a sales executive, and added to the main customer system.
 
-## Customer Submission / Request Workflow
+### Payment Tracking
+Tracks customer payment information and statuses such as paid, pending, partially paid, and overdue.
 
-Insight360 now includes a manager-scoped Customer Submission workflow:
-- Customer submissions are stored separately as `Pending` requests and never auto-create customers.
-- Managers can generate tokenized shareable forms, review their requests, and export requests to Excel/CSV.
-- Managers can import `.xlsx`, `.xls`, or `.csv` customer files with a preview and duplicate warnings before confirmation.
-- Install dependencies before building after extracting the project: `npm install`, then `npm run build`.
+### Analytics Dashboard
+Provides dashboards and charts to help understand customer health, sales performance, loyalty, churn risk, and other important customer information.
 
+### Role-Based Access
+Provides different access levels for different users:
+
+* **Admin** – Manages users and the overall platform.
+* **Manager** – Reviews customer requests, manages sales executives, and monitors customers and team performance.
+* **Sales Executive** – Handles assigned customers, deals, and follow-ups.
+* **Customer** – Provides required information and accesses relevant customer features.
+
+## Technology Stack
+**Frontend**
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+**Backend**
+* Node.js
+* Express
+* TypeScript
+
+**Database**
+* SQLite / SQL.js
+* MongoDB
+
+**Security**
+* JWT Authentication
+* bcrypt Password Hashing
+* Role-Based Access Control
+
+## Project Goal
+The goal of Insight360 is to bring scattered customer information together and provide businesses with a clear 360° view of their customers.
+The platform helps teams understand customer relationships, identify potential risks, monitor sales and payments, manage loyalty, and take timely actions to improve customer engagement and retention.
