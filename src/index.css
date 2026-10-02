@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes landing-rise {
+	from { opacity: 0; transform: translateY(12px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.landing-reveal {
+	animation: landing-rise 650ms ease-out both;
+}
+
+.landing-reveal-delayed {
+	animation-delay: 120ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.landing-reveal,
+	.landing-reveal-delayed {
+		animation: none;
+	}
+}

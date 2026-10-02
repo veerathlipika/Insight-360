@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "6abbc26b1d7bc2768d6c0826",
+    "sql_id": 1,
+    "ticket_number": "TIK-6001",
+    "customer_id": 1,
+    "subject": "SSO SAML Certificate Renewal Assistance",
+    "description": "Need guidance updating our Okta SAML certificate before expiration next week.",
+    "status": "Open",
+    "priority": "Medium",
+    "assigned_user_id": 3,
+    "created_at": "2026-09-23T15:43:10.891Z"
+  },
+  {
+    "_id": "6abbc26b68f0f15bcb36ee7e",
+    "sql_id": 2,
+    "ticket_number": "TIK-6002",
+    "customer_id": 5,
+    "subject": "ERP Webhook Sync Timeout Error",
+    "description": "Custom endpoint returning 504 on heavy batch invoice updates.",
+    "status": "In Progress",
+    "priority": "High",
+    "assigned_user_id": 4,
+    "created_at": "2026-09-23T15:43:10.892Z"
+  },
+  {
+    "_id": "6abbc26b244866ca4739c323",
+    "sql_id": 3,
+    "ticket_number": "TIK-6003",
+    "customer_id": 3,
+    "subject": "Role Permission Configuration for Junior Analyst",
+    "description": "Need read-only access to customer 360 without export permissions.",
+    "status": "Resolved",
+    "priority": "Low",
+    "assigned_user_id": 4,
+    "created_at": "2026-09-23T15:43:10.892Z"
+  },
+  {
+    "_id": "6abbc26b237c63ddf80ac7a0",
+    "sql_id": 4,
+    "ticket_number": "TIK-6004",
+    "customer_id": 8,
+    "subject": "POS Quotation Item Discrepancy",
+    "description": "Investigating rounding variance on cents in multi-line quote calculator.",
+    "status": "Closed",
+    "priority": "Medium",
+    "assigned_user_id": 3,
+    "created_at": "2026-09-23T15:43:10.893Z"
+  }
+]

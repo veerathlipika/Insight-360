@@ -1,0 +1,6 @@
+{
+  "name": "Insight360",
+  "description": "Customer profiles, sales activity, sentiment, and retention insights in one connected workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+{
+  "connectionUri": "mongodb://localhost:27017/crm_enterprise",
+  "databaseName": "crm_enterprise",
+  "engine": "WiredTiger Document Store",
+  "status": "connected",
+  "autoSync": true,
+  "writeConcern": "w: 1",
+  "journal": true,
+  "version": "7.0.8"
+}

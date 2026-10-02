@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "6abbc26b03d5222b34bd1ae3",
+    "sku": "SFT-ENT-001",
+    "name": "Enterprise Workflow License",
+    "category": "Software Subscription",
+    "unit_price": 4999,
+    "billing_interval": "Annual",
+    "features": [
+      "Full API Access",
+      "Unlimited Leads",
+      "MongoDB Storage Sync",
+      "24/7 Priority Support"
+    ],
+    "in_stock": true
+  },
+  {
+    "_id": "6abbc26b2188564c049d3e76",
+    "sku": "SRV-ONB-002",
+    "name": "Dedicated Onboarding & Architecture",
+    "category": "Professional Services",
+    "unit_price": 2500,
+    "billing_interval": "One-time",
+    "features": [
+      "Custom Data Migration",
+      "Workflow Setup",
+      "Team Training Session"
+    ],
+    "in_stock": true
+  },
+  {
+    "_id": "6abbc26bd3c666598a3e09ac",
+    "sku": "ADD-AI-003",
+    "name": "AI Sales Intelligence Module",
+    "category": "Add-on",
+    "unit_price": 1200,
+    "billing_interval": "Annual",
+    "features": [
+      "Automated Lead Scoring",
+      "Gemini CRM Assistant",
+      "Predictive Deal Analytics"
+    ],
+    "in_stock": true
+  }
+]

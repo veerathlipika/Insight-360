@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "6abbc26b504ed7c895dade4b",
+    "category": "general",
+    "company_name": "Workflow Enterprise Corp",
+    "timezone": "UTC",
+    "currency": "USD",
+    "fiscal_year_start": "January",
+    "database_engine": "MongoDB 7.0 + SQLite Dual Persistence",
+    "updatedAt": "2026-09-29T13:51:39.763Z"
+  },
+  {
+    "_id": "6abbc26bcd521e1534e5ff9c",
+    "category": "notifications",
+    "email_alerts_enabled": true,
+    "deal_stage_notifications": true,
+    "high_priority_ticket_sms": false,
+    "updatedAt": "2026-09-29T13:51:39.764Z"
+  }
+]
